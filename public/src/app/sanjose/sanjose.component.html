@@ -1,0 +1,15 @@
+<div class="divTest row justify-content-center">
+  <div class="col-5">
+      <h1>Showing weather for {{weather.name}}</h1>
+      <ul>
+        <li>Humidity: {{weather.main.humidity}}</li>
+        <li>Temperature (Average): {{weather.main.temp}}</li>
+        <li>Temperature (High): {{weather.main.temp_max}}</li>
+        <li>Temperature (Low): {{weather.main.temp_min}}</li>
+        <li>Status: {{weather.weather[0].description}}</li>
+      </ul>
+  </div>
+  <div class="col-4">
+    <img src="{{image}}" width="200" height="200">
+  </div>
+</div>
