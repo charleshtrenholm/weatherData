@@ -25,7 +25,7 @@ export class ChicagoComponent implements OnInit {
       console.log("WERE IN THIS")
       console.log("GOT THE WEATHER---->", data);
       this.weather = data;
-      console.log("WEATHER _____>", this.weather)
+      console.log("WEATHER _____>", this.weather);
     })
   }
 
